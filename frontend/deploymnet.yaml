@@ -6,8 +6,7 @@ metadata:
   namespace: my-demo
 data:
   index.html: |
-
-    <!doctype html>
+<!doctype html>
     <html lang="en">
     <head>
       <meta charset="utf-8">
@@ -64,13 +63,14 @@ data:
     </head>
     <body>
       <h1>✅ It Works!</h1>
-      <h2>🔥 Served by Kubernetes Deployment<br>(NodePort Service)</h2>
+      <h2>🔥 Wow! Kubernetes Magic ✨</h2>
       <p>🚀 Automated CI/CD with <b>ArgoCD</b></p>
       <div class="footer">
-        © 2025 | Deployed via GitOps | Made with ❤️ on Kubernetes.
+        © 2025 | Deployed via GitOps | Made with ❤️ on Kubernetes
       </div>
     </body>
-    </html>:
+    </html>
+
 
 ---
 # Deployment for NGINX
