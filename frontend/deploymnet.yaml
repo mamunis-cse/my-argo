@@ -1,3 +1,4 @@
+---
 # ConfigMap for custom index.html
 apiVersion: v1
 kind: ConfigMap
@@ -6,7 +7,7 @@ metadata:
   namespace: my-demo
 data:
   index.html: |
-<!doctype html>
+    <!doctype html>
     <html lang="en">
     <head>
       <meta charset="utf-8">
@@ -70,7 +71,6 @@ data:
       </div>
     </body>
     </html>
-
 
 ---
 # Deployment for NGINX
